@@ -7,6 +7,7 @@
 Tomando en cuenta el *modelo de caja, concepto de Lego y construcción por Capas* realizar la maquetación de la siguiente imagen de referencia.
 
 ![Web UI minimalista](https://typegang.com/inspiration/ui/minimal-photography-web-app/minimal-photography-web-app.jpg)
+Sacado de: [TypeGang](https://typegang.com/inspiration/ui/minimal-photography-web-app/?utm_source=feed)
 
 ## Pasos para guiarse en el ejercicio
 
