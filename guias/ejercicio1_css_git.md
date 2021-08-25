@@ -48,11 +48,11 @@ Para ello podríamos seguir los siguientes pasos:
         git remote add origin git@github.com:TU_NOMBRE_USUARIO/NOMBRE_REPOSITORIO
     ```
 
-5. Realizar la prueba de conexión
+5. Cargar del código en el respositorio
 
     ```bash
         # Realizar la prueba de conexión
-        git -T git@github.com
+        git push --set-upstream origin master
     ```
 
 ### CSS
