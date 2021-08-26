@@ -18,55 +18,60 @@ Para finalizar la configuración con Git para los nuevos requerimientos de segur
 Para ello podríamos seguir los siguientes pasos:
 
 1. Configurar el nombre de usuario y correo de git
-
-    ```bash
-        git config --global user.name "TU NOMBRE DE USUARIO EN GITHUB"
-        git config --global user.email "TU CORREO UTILIZADO EN GITHUB"
-    ```
+   
+   ```bash
+       git config --global user.name "TU NOMBRE DE USUARIO EN GITHUB"
+       git config --global user.email "TU CORREO UTILIZADO EN GITHUB"
+   ```
 
 2. Crear el par de llaves
-
-    ```bash
-        ssh-keygen -t rsa -b 4096 -C "TU CORREO UTILIZADO EN GITHUB"
-    ```
+   
+   ```bash
+       ssh-keygen -t rsa -b 4096 -C "TU CORREO UTILIZADO EN GITHUB"
+   ```
 
 3. Agregar la llave **pública** al perfil de Github
-
+   
     Buscar en la carpeta de tu usuario (sea linux/windows/mac) la carpeta llamada *.ssh* En esa carpeta deberá existir dos nuevos archivos uno llamado *id_rsa* y *id_rsa.pub*. La llave pública para agregar en Github es la finalizada en .pub (significa .public)
 
 4. Registrar el link al repositorio utilizando **ssh**
-
+   
     Si ya tienes configurado un *origin* con tu repositorio existente, entonces debemos eliminarlo utilizando el siguiente comando:
-
-    ```bash
-        git remote remove origin
-    ```
-
+   
+   ```bash
+       git remote remove origin
+   ```
+   
     Y luego agregar el nuevo *origin* utilizando **ssh** que lo puedes encontrar disponble en tu repositorio en el botón verde 🟩 que dice Code. Luego debes ejecutar el siguiente código en tu repositorio
-
-    ```bash
-        git remote add origin git@github.com:TU_NOMBRE_USUARIO/NOMBRE_REPOSITORIO
-    ```
+   
+   ```bash
+       git remote add origin git@github.com:TU_NOMBRE_USUARIO/NOMBRE_REPOSITORIO
+   ```
 
 5. Cargar del código en el respositorio
-
-    ```bash
-        # Realizar la prueba de conexión
-        git push --set-upstream origin master
-    ```
+   
+   ```bash
+       # Realizar la prueba de conexión
+       git push --set-upstream origin master
+   ```
 
 ### CSS
 
 1. Crear un archivo en la raiz de su proyecto llamado *index.html*
-2. Crear un archivo *css/index.css*
-3. Enlazar ambos archivos utilizando la etiqueta *<link>*
-4. Apoyándose de la etiqueta *<div>* crear la maqueta para el diseño presentado
-5. Utilizando las propiedades de css como: display ; margin ; padding ; border ; position ; width ; height. Construir la maqueta analizada posteriormente.
-6. Utilizar comando de Git para subir su código al repositorio
 
-    ```bash
-    git status              # verificar estado de git
-    git add .               # agregar cambios a "listo para commit"
-    git commit -m "mensaje" # confirmar cambios a través de un commit 
-    git push                # cargar commit al repositorio remoto
-    ```
+2. Crear un archivo *css/index.css*
+
+3. Enlazar ambos archivos utilizando la etiqueta *<link>*
+
+4. Apoyándose de la etiqueta *<div>* crear la maqueta para el diseño presentado
+
+5. Utilizando las propiedades de css como: display ; margin ; padding ; border ; position ; width ; height. Construir la maqueta analizada posteriormente.
+
+6. Utilizar comando de Git para subir su código al repositorio
+   
+   ```bash
+   git status              # verificar estado de git
+   git add .               # agregar cambios a "listo para commit"
+   git commit -m "mensaje" # confirmar cambios a través de un commit 
+   git push                # cargar commit al repositorio remoto
+   ```

@@ -10,6 +10,8 @@
     height: 750px;
     width: 295px;
     display: inline-block;
+    vertical-align: top;
+    
 }
 
 #contenido{
@@ -17,6 +19,7 @@
     height: 750px;
     width: 550px;
     display: inline-block;
+    vertical-align: top;
 }
 
 #perfil{
@@ -35,4 +38,31 @@
     background-color:cadetblue;
     width: 295px;
     height: 100px;
+}
+
+#foto{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    position: relative;
+    top: 35px;
+    /* right: 15px;
+    left: 15px;
+    bottom: 0px; */
+}
+
+#datos-usuario{
+    background-color:darkkhaki;
+    width: 140px;
+    height: 250px;
+    display: inline-block;
+}
+
+.opcion{
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
 }
