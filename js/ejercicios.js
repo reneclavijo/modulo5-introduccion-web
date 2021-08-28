@@ -83,3 +83,80 @@ if (n <= usuarios.length) {
 }else{
     console.log("Usuario no registrado")
 }
+
+
+// Ejercicio IF
+
+// ¿Cuál es mayor?
+a = 50
+b = 50
+
+if (a > b) {
+    console.log(a + " es mayor")
+}else{
+    console.log(b + " es mayor")
+}
+
+// ¿ Cuál es mayor, cuál es menor o son iguales?
+
+a = 500
+b = 500
+
+if (a > b) {
+    console.log(a + " es mayor y " + b + " es menor")
+}else if (b > a){
+    console.log(b + " es mayor y " + a + " es menor")
+}else {
+    console.log(a + " y " + b + " son iguales")
+}
+
+// División modular % 
+
+n = 8
+let residuo = n % 2 // división modular
+
+if (residuo == 0) {
+    console.log(n + " es PAR")
+}
+
+
+if (residuo != 0){
+    console.log(n + " es IMPAR")
+}
+if (residuo > 0) {
+    console.log(n + " es IMPAR")
+}
+if (residuo == 1) {
+    console.log(n + " es IMPAR")
+}
+
+
+// Ejercicio de películas
+// Edad >= 0
+// Categorias
+// - A => Todo público
+// - B => Desde 9 años
+// - C => Desde 18 años
+// - D => Desde 25 años
+
+let edad = prompt("Ingrese su edad")
+let categoria = prompt("Ingrese la categoria A, B, C o D").toUpperCase()
+
+if (edad >= 0 && categoria == "A" || categoria == "B" || 
+    categoria == "C" || categoria == "D") {
+    
+    if (categoria == "A") {
+        alert("Si puede ver la película cat A 👪")
+    }else if (categoria == "B" && edad >= 9){
+        alert("Si puede ver la película cat B 🧨")
+    }else if (categoria == "C" && edad >= 18){
+        alert("Si puede ver la película cat C 🔪")
+    }else if (categoria == "D" && edad >= 25){
+        alert("Si puede ver la película cat D 🐹")
+    }else{
+        alert("PARA LA CASA 🏠👈")
+    }
+
+}else{
+    alert("Edad o categorias invalidas 😣")
+}

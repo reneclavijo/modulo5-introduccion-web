@@ -42,11 +42,11 @@ Crear un archivo llamado logica.html en la carpeta de vistas, un archivo /js/eje
 
         ```javascript
         //1. Dado un número b realizar la siguiente operación
-            if(b<10) {
-                return 2;
+            if (b<10) {
+                return 2; // Cuando es verdad
             }
-            else     {
-                return 4;
+            else {
+                return 4; // cuando es falso
             }
             console.log(b);
         ```
