@@ -6,7 +6,7 @@
 
 Utilizar el digrama de T y el lenguaje de javascript  para resolver los siguientes problemas.
 
-Crear un archivo llamado logica.html en la carpeta de vistas, un archivo /js/ejercicios.js y enlazarlos utilizando la etiqueta <script>
+Crear un archivo llamado logica.html en la carpeta de vistas, un archivo /js/ejercicios.js y enlazarlos utilizando la etiqueta ``` <script> ```
 
 ## Pasos para resolver el ejercicio
 
@@ -65,5 +65,21 @@ Crear un archivo llamado logica.html en la carpeta de vistas, un archivo /js/eje
         El usuario debe ingresar su edad y la categoría de la película que desea ver y el software deberá imprimir en consola si puede no ver la película según la clasificación.
 
 3. Estructura For
+
+    1. Imprimir en consola los números desde el 0 hasta el número **n** separados por -
+    2. Imprimir en consola los números desde el 0 hasta el **-n** separados por **;**
+    3. Realizar la suma acumulativa de números desde el 0 hasta **n** y mostrar en consola la suma total con el mensaje "suma total: suma_total"
+    4. Imprimir los números todos los números pares desde el 0 hasta **n**
+    5. Imprimir los números todos los números impares desde el 0 hasta **n**
+    6. Realizar el factorial de un número n e imprimirlo en consola
+
 4. Estructura While
+
+    1. Utilizando la estructura while y el método prompt(), mostrar los textos ingresados hasta escribir la palabra "salir"
+    2. Dado un número n entre 100 y 500, restar 1 si es número impar y dividir entre dos si es par. Realizar esta operación hasta n sea menor o igual a 0. Imprimir en consola todas las operaciones
+    3. Dado un número n entre 100 y 500, restar 1 si es número impar y dividir entre dos si es par. Mostrar en consola la cantidad de operaciones realizadas.
+    4. Sumar números ingresados con el método prompt() hasta que se ingrese el número -1. Mostrar en consola la suma total
+
 5. Funciones y fetch (ajax|api)
+
+    1. Utilizando el método fetch, realizar la búsqueda de un pokemon utilizando [Pokeapi](https://pokeapi.co/). Mostrar el resultado de la información en consola como el número del pokemon, el nombre y un ataque.
